@@ -16,6 +16,6 @@ import java.util.List;
 public class UserController {
     @GetMapping("/users")
     public List<User> getAllUsers() {
-        return List.of(new User("USER007", "Vamsi Adari"));
+        return List.of(new User("USER007", "Vamsi Charan Adari"));
     }
 }
